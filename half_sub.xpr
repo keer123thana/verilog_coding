@@ -1,4 +1,5 @@
-/dataflow
+'timescale 1ns /1ps
+//dataflow
 //module half_subt(
 //input i_a,i_b,
 //output o_diff,o_borrow
