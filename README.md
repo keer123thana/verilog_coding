@@ -6,3 +6,4 @@ Verilog is a hardware description language used to model, simulate, and implemen
 4. Full adder
 5. Full subtractor
 6. 4 inputs AND gate
+7. All logic gates using all 3 modeling
