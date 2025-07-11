@@ -20,27 +20,27 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 //halfadder-structural model
-/*module hadd(a, b, s, c);
+/*module hadd(
     input a,b;
-    output s,c;
+    output s,c);
     xor(s,a,b);
 	 and(c,a,b);
 endmodule
 
 
 //halfadder- dataflow model
-module hadd(a,b,s,c);
+module hadd(
 	input a,b;
-	output s,c;
+	output s,c);
 	assign s=a^b;
 	assign c=a&b;
 endmodule*/
 
 
 //halfadder- behavioral model
-module hadd(a,b,s,c);
+module hadd(
 	input a,b;
-	output reg s,c;
+	output reg s,c);
    always@(*)
 	begin
 	s=a^b;
